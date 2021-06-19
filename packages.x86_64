@@ -119,3 +119,11 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+#
+# Added for CachyOS
+figlet
+
+# CachyOS Repo
+CachyOS-repo-test
+cachyos-installer
