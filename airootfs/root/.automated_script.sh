@@ -31,6 +31,5 @@ automated_script ()
 
 if [[ $(tty) == "/dev/tty1" ]]; then
     automated_script
-    cachyos_test.sh
     install_cachyos
 fi
