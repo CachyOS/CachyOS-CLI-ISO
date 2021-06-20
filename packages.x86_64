@@ -123,6 +123,7 @@ zsh
 #
 # Added for CachyOS
 figlet
+wget
 
 # CachyOS Repo
 keyring-cachyos
