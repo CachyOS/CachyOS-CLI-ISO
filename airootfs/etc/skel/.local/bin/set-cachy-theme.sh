@@ -6,10 +6,10 @@ sleep 7s
 lookandfeeltool --resetLayout -a CachyOS
 
 # move konsolerc
-mv ./konsolerc $HOME/.config/
+mv ./konsolerc ~/.config/
 
 # move ksplashrc
-mv ./ksplashrc $HOME/.config/
+mv ./ksplashrc ~/.config/
 
 
 # cleanup
