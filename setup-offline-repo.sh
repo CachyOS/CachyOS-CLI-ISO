@@ -4,7 +4,8 @@
 offline_repo_path="./airootfs/root/offline-repos/"
 
 # packages
-arch_packages=" base base-devel linux linux-firmware systemd efibootmgr mkinitcpio vim"
+arch_packages=" base base-devel linux linux-firmware systemd \
+		efibootmgr mkinitcpio vim networkmanager grub"
 cachyos_packages=" cachyos-installer"
 
 mkdir -p $offline_repo_path
