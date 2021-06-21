@@ -18,4 +18,4 @@ sudo pacman -Syw --cachedir $offline_repo_path \
 	$cachyos_packages
 
 # move .dbs up folder to be alongside with their packages
-mv $offline_repo_path/sync/* $offline_repo_path/
+sudo mv $offline_repo_path/sync/* $offline_repo_path/
