@@ -49,7 +49,7 @@ less
 lftp
 libfido2
 libusb-compat
-linux
+linux-cachyos
 linux-atm
 linux-firmware
 livecd-sounds
