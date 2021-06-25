@@ -14,7 +14,7 @@ arch_packages=" base base-devel linux linux-firmware systemd \
 		pipewire pipewire-alsa pipewire-jack \
 		pipewire-media-session pipewire-pulse \
 		gst-plugin-pipewire libpulse"
-cachyos_packages=" linux-cacule-headers linux-cacule cachyos-kde-theme"
+cachyos_packages=" linux-cachyos-headers linux-cachyos cachyos-kde-theme"
 
 mkdir -p $offline_repo_path
 
