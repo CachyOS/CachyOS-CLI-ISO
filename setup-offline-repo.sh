@@ -10,7 +10,8 @@ noconfirm="--noconfirm"
 base_packages="base base-devel linux linux-firmware mkinitcpio systemd vim"
 arch_packages="efibootmgr mkinitcpio networkmanager grub \
 		libinih libedit ntp xfsprogs \
-		plasma-meta kde-applications-meta xorg \
+		plasma-desktop plasma-framework plasma-nm plasma-pa \
+		konsole kate dolphin sddm sddm-kcm xorg \
 		pipewire pipewire-alsa pipewire-jack \
 		pipewire-media-session pipewire-pulse \
 		gst-plugin-pipewire libpulse"
