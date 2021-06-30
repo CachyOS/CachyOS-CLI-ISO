@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="cachyos"
-iso_label="ARCH_$(date +%Y%m)"
+iso_label="CACHYOS_$(date +%Y%m)"
 iso_publisher="CachyOS <https://cachyos.org>"
 iso_application="CachyOS Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
