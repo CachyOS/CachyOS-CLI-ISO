@@ -7,7 +7,7 @@ offline_repo_path="./airootfs/root/offline-repos/"
 noconfirm="--noconfirm"
 
 # packages
-base_packages="base base-devel linux linux-firmware mkinitcpio systemd vim"
+base_packages="base base-devel linux linux-headers linux-firmware mkinitcpio systemd vim"
 arch_packages="efibootmgr mkinitcpio networkmanager grub \
 		libinih libedit ntp xfsprogs \
 		plasma-desktop plasma-framework plasma-nm plasma-pa \
