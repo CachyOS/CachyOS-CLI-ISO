@@ -18,6 +18,8 @@ arch_packages="efibootmgr mkinitcpio networkmanager grub \
 cachyos_packages="linux-cachyos-headers linux-cachyos cachyos-kde-theme"
 
 mkdir -p $offline_repo_path
+# move previous .dbs to sync folder
+sudo mv $offline_repo_path/*.db* $offline_repo_path/sync/
 
 #
 # download arch and cachyos packages
