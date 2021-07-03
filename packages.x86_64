@@ -124,6 +124,7 @@ zsh
 # Added for CachyOS
 figlet
 wget
+patch
 
 # CachyOS Repo
 keyring-cachyos
