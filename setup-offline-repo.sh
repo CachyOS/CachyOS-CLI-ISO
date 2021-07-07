@@ -19,15 +19,15 @@ cachyos_packages="linux-cachyos-headers linux-cachyos cachyos-kde-theme"
 
 mkdir -p $offline_repo_path
 # move previous .dbs to sync folder
-sudo mv $offline_repo_path/*.db* $offline_repo_path/sync/
+mv $offline_repo_path/*.db* $offline_repo_path/sync/
 
 #
 # download arch and cachyos packages
-sudo pacman $noconfirm -Syw --cachedir $offline_repo_path \
+pacman $noconfirm -Syw --cachedir $offline_repo_path \
 	--dbpath $offline_repo_path \
 	$base_packages \
 	$arch_packages \
 	$cachyos_packages
 
 # move .dbs up folder to be alongside with their packages
-sudo mv $offline_repo_path/sync/* $offline_repo_path/
+mv $offline_repo_path/sync/* $offline_repo_path/
