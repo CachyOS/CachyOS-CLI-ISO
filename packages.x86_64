@@ -126,5 +126,4 @@ wget
 patch
 
 # CachyOS Repo
-keyring-cachyos
 cachyos-installer
