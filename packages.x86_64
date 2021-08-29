@@ -127,3 +127,7 @@ patch
 
 # CachyOS Repo
 cachyos-installer
+
+# zfs support
+zfs-dkms
+zfs-utils
