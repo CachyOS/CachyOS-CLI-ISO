@@ -127,6 +127,8 @@ patch
 
 # CachyOS Repo
 cachyos-installer
+cachyos-mirrorlist
+cachyos-v3-mirrorlist
 
 # zfs support
 zfs-dkms
