@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=$HOME/.local/bin/set-cachy-theme.sh &
+GenericName[en_US]=
+GenericName=
+MimeType=
+Name[en_US]=CachyOSSetup
+Name=CachyOSSetup
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
