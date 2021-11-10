@@ -126,4 +126,4 @@ wget
 patch
 
 # CachyOS Repo
-cachyos-installer
+cachyos-cli-installer
