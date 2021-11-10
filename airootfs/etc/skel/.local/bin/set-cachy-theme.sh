@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-wget https://mirror.cachyos.org/cachyos-repo.tar.xz
-tar xvf cachyos-repo.tar.xz
-cd repo
-msg "enter your password for enabling the optimized repos"
-sudo ./cachyos-repo.sh
 
 sleep 10s
 
