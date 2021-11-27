@@ -124,6 +124,7 @@ zsh
 figlet
 wget
 patch
+networkmanager
 
 # CachyOS Repo
 cachyos-cli-installer
