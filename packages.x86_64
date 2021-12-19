@@ -123,6 +123,16 @@ figlet
 wget
 patch
 networkmanager
+libnm
+glibmm
+
+xorg-server
+xorg-xinit
+dwm
+st
 
 # CachyOS Repo
-cachyos-cli-installer
+cachyos-cli-installer-new
+cachyos-mirrorlist
+cachyos-v3-mirrorlist
+cachyos-keyring
