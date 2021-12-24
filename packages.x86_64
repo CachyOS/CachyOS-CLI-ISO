@@ -131,6 +131,9 @@ xorg-xinit
 dwm
 st
 
+# Needed for installer
+ttf-fira-code
+
 # CachyOS Repo
 cachyos-cli-installer-new
 cachyos-mirrorlist
