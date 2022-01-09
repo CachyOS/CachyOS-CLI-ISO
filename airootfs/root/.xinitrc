@@ -1,2 +1,1 @@
-exec dwm
-st
+exec dwm st
