@@ -1,2 +1,0 @@
-exec dwm
-st& disown
