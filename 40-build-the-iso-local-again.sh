@@ -43,7 +43,13 @@ echo
 
 [ -d $outFolder ] || mkdir $outFolder
 cd $buildFolder/archiso/
-sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso/
+ctrlc() {
+  exit 0
+}
+trap ctrlc SIGINT
+trap ctrlc SIGTERM
+
+sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso/ || exit 1
 
 
 echo "Moving pkglist.x86_64.txt"
