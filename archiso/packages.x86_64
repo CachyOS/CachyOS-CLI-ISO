@@ -123,8 +123,7 @@ figlet
 wget
 patch
 networkmanager
-libnm
-glibmm
+fzf
 
 xorg-server
 xorg-xinit
@@ -139,3 +138,5 @@ cachyos-cli-installer-new
 cachyos-mirrorlist
 cachyos-v3-mirrorlist
 cachyos-keyring
+mhwd-cachyos
+mhwd-nvidia-390xx
