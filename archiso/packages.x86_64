@@ -128,7 +128,7 @@ fzf
 xorg-server
 xorg-xinit
 dwm
-st
+cachyos-st-config
 
 # Needed for installer
 ttf-fira-code
