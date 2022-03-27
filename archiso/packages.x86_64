@@ -127,7 +127,7 @@ fzf
 
 xorg-server
 xorg-xinit
-dwm
+cachyos-dwm-config
 cachyos-st-config
 
 # Needed for installer
