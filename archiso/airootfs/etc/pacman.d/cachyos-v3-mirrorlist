@@ -1,15 +1,17 @@
 ######################################################
+####                                              ####
+###        CachyOS Repository Mirrorlist       ###
+####                                              ####
+######################################################
 #### Entry in file /etc/pacman.conf:
 ###     [cachyos-desktop-v3]
-###     Include = /etc/pacman.d/cachyos-mirrorlist
+###     Include = /etc/pacman.d/cachyos-v3-mirrorlist
 ###     [cachyos-v3]
-###     Include = /etc/pacman.d/cachyos-mirrorlist
+###     Include = /etc/pacman.d/cachyos-v3-mirrorlist
 ######################################################
 ## Netherlands
-Server = https://mirror1.cachyos.org/repo/$arch_v3/$repo
+Server = https://nl.cachyos.org/repo/$arch_v3/$repo
 ## Germany
 Server = https://aur.cachyos.org/repo/$arch_v3/$repo
 Server = https://mirror.cachyos.org/repo/$arch_v3/$repo
-Server = https://cachyos-mirror.sm9.dev/repo/$arch_v3/$repo
-## Finland
 Server = https://build.cachyos.org/repo/$arch_v3/$repo
