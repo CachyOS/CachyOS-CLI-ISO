@@ -1,13 +1,21 @@
 alsa-utils
 amd-ucode
 arch-install-scripts
-archinstall
+archlinux-keyring
 b43-fwcutter
 base
 bind-tools
 brltty
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
+cachyos-cli-installer-new
+cachyos-dwm-config
+cachyos-hooks
+cachyos-keyring
+cachyos-mirrorlist
+cachyos-st-config
+cachyos-rate-mirrors
+cachyos-v3-mirrorlist
 clonezilla
 cloud-init
 crda
@@ -28,7 +36,9 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+figlet
 fsarchiver
+fzf
 gnu-netcat
 gpart
 gpm
@@ -48,8 +58,10 @@ less
 lftp
 libfido2
 libusb-compat
-linux
 linux-atm
+linux-cachyos
+linux-cachyos-headers
+linux-cachyos-zfs
 linux-firmware
 linux-firmware-marvell
 livecd-sounds
@@ -61,6 +73,8 @@ man-pages
 mc
 mdadm
 memtest86+
+mhwd-cachyos
+mhwd-nvidia-390xx
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -69,6 +83,8 @@ mtools
 nano
 nbd
 ndisc6
+#network
+networkmanager
 nfs-utils
 nilfs-utils
 nmap
@@ -80,6 +96,7 @@ openvpn
 partclone
 parted
 partimage
+patch
 pcsclite
 ppp
 pptpclient
@@ -105,6 +122,7 @@ terminus-font
 testdisk
 tmux
 tpm2-tss
+ttf-fira-code
 udftools
 usb_modeswitch
 usbmuxd
@@ -112,34 +130,14 @@ usbutils
 vim
 virtualbox-guest-utils-nox
 vpnc
+wget
 wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
-
-#
-# Added for CachyOS
-figlet
-wget
-patch
-networkmanager
-fzf
-
 xorg-server
 xorg-xinit
-cachyos-dwm-config
-cachyos-st-config
-
-# Needed for installer
-ttf-fira-code
-
-# CachyOS Repo
-cachyos-cli-installer-new
-cachyos-mirrorlist
-cachyos-v3-mirrorlist
-cachyos-keyring
-mhwd-cachyos
-mhwd-nvidia-390xx
+zfs-utils
+zsh
