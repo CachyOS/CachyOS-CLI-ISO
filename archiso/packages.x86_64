@@ -103,6 +103,7 @@ pptpclient
 pv
 qemu-guest-agent
 refind
+refind-drivers
 reflector
 reiserfsprogs
 rp-pppoe
@@ -130,6 +131,7 @@ usbutils
 vim
 virtualbox-guest-utils-nox
 vpnc
+wipe
 wget
 wireless-regdb
 wireless_tools
