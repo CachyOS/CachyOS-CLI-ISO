@@ -1,3 +1,15 @@
-out/
+*~
+archiso-*.tar.gz*
 work/
-airootfs/root/offline-repos/
+out/
+build/
+*.iso
+*.img
+*.cer
+*.crt
+*.key
+*.pem
+user-data
+meta-data
+*.qcow2
+archiso/packages.x86_64
